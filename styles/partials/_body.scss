@@ -1,0 +1,76 @@
+.information {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    //
+    // position: relative;
+    }
+
+.infoWrapper {
+
+}
+
+.red_line {
+    height: 5px;
+    width: 300px;
+    background-color: #ff4d4d;
+    position: absolute;
+
+}
+
+
+.separator {
+    height: 3px;
+    width: 200px;
+    background-color: #878a91;
+}
+
+
+.picture_wrapper {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+.box1 {
+        background-image: url(https://avada.theme-fusion.com/music/wp-content/uploads/sites/68/2016/07/home_section_middle-1.jpg);
+    }
+
+.box2 {
+    background-image: url(https://avada.theme-fusion.com/music/wp-content/uploads/sites/68/2016/07/home_section_middle-1.jpg);
+
+}
+
+
+.box3 {
+    background-image: url(https://avada.theme-fusion.com/music/wp-content/uploads/sites/68/2016/07/home_section_middle-1.jpg);
+
+}
+
+.picture {
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.picture:hover {
+    -webkit-transform:scale(1.20); /* Safari and Chrome */
+   -moz-transform:scale(1.20); /* Firefox */
+   -ms-transform:scale(1.20); /* IE 9 */
+   -o-transform:scale(1.20); /* Opera */
+    transform:scale(1.20);
+}

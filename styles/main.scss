@@ -1,0 +1,11 @@
+@import "globals/reset";
+@import "globals/variables";
+@import "globals/grid";
+@import "partials/_header";
+@import "partials/_footer";
+@import "partials/_body";
+
+body {
+  background-color: #303338;
+
+}

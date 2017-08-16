@@ -1,0 +1,134 @@
+.slider {
+    background-image: url(https://avada.theme-fusion.com/music/wp-content/uploads/sites/68/2016/07/home_slider.jpg);
+        height: 700px;
+        width: 100%;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // overflow: auto;
+    }
+
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    width: 100%;
+    margin: 0 auto;
+    opacity: 1.0;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    overflow: hidden;
+    -webkit-transition: height 0.4s;
+    -moz-transition: height 0.4s;
+    -ms-transition: height 0.4s;
+    -o-transition: height 0.4s;
+    transition: height 0.4s;
+
+}
+
+#header.smaller {
+    height: 75px;
+    background-color: #282828;
+}
+
+
+.logo {
+
+    width: 300px;
+    height: auto;
+    line-height: 120px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+
+.logo.smaller {
+    height: 75px;
+}
+
+
+
+
+
+ .menu {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1,.bar2,.bar3 {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 8px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-8px, 8px) ;
+    transform: rotate(-45deg) translate(-8px, 8px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+
+
+.main_info {
+    text-align: center;
+    width: 100%;
+}
+
+
+.buttons {
+    display: inline-block;
+    padding-top: 30px;
+
+}
+
+.button_1 {
+    background-color: #ff4d4d;
+    outline: none;
+}
+
+.button_1:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.button_2 {
+    background-color: Transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.button_2:hover {
+    background-color: white;
+    color: black;
+}

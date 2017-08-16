@@ -1,0 +1,54 @@
+//container - główny kontener strony
+// row - rząd
+// column - kolumna
+//gutter - odstęp między kolumnami
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    width: 1200px;
+    margin: 0, auto;
+    // display: block;
+}
+
+//grid = 12 kolumn
+// 1 = 100%12 = 8,33 %
+
+//col-2 16,66%
+//col-3 25%
+//     .row {
+//         margin: 10px 0;
+//         &:before,
+//         &:after {
+//             content: " ";
+//             clear: both;
+//             display: block;
+//         }
+//     [class*="col-"]{ //wszystkie klasy, które mają początek col-
+//         float: left;
+//         min-height: 1px;
+//         padding: 0 10px;
+//     }
+//
+//     @for $i from 1 through 12 {
+//         .col-#{$i} {
+//             width: 100%; //dla mobile
+//             margin: 20px 0;
+//
+//             @media screen and (min-width: 640px){ //dla większego ekranu
+//                 width: (100%/12) * $i;
+//                 margin: 0;   //jeden punkt graniczny - gdzie elementy wchodzą na siebie; może byc ich więcej
+//             }
+//             //col-1 => width 8.33% *1 = 8.33%
+//             //col-2 => width 8.33% *2 = 16.66%
+//             //col-3 => width 8.33% *3 = 25%
+//         }
+//     }
+//
+// }
